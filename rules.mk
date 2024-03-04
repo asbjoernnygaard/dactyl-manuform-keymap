@@ -22,6 +22,8 @@ SPACE_CADET_ENABLE = yes
 GRAVE_ESC_ENABLE = yes
 MAGIC_ENABLE = no
 
+OPT_DEFS += -Wno-error
+
 # Load the necessary external C files if and only if
 # the associated config option has been enabled
 ifeq ($(strip $(COMBO_ENABLE)), yes)
